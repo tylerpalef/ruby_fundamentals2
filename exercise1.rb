@@ -75,29 +75,42 @@
 
 #original wrong version:
 
-# def conversation(temp)
-#   return celsius
-# end
-#
-# puts "what is the temp today in Fahrenheit?"
-# fahr = gets.chomp.to_i
-# converted = conversion(fahr).round(1)
-# puts "The current temperature in celsius is #{converted}"
+    # def conversation(temp)
+    #   return celsius
+    # end
+    #
+    # puts "what is the temp today in Fahrenheit?"
+    # fahr = gets.chomp.to_i
+    # converted = conversion(fahr).round(1)
+    # puts "The current temperature in celsius is #{converted}"
 
-#forked David version that works:
-# def conversion(temp)
-#   celsius = (temp-32) * (5.0/9.0)
-#   return celsius
-# end
-#
-# puts "Enter the current temperature in Fahrenheit: "
-# fahr = gets.chomp.to_i
-# converted = conversion(fahr).round(1)
-# puts "The current temperature in celsius is #{converted}"
+    #forked David version that works:
+
+    # def conversion(temp)
+    #   celsius = (temp-32) * (5.0/9.0)
+    #   return celsius
+    # end
+    #
+    # puts "Enter the current temperature in Fahrenheit: "
+    # fahr = gets.chomp.to_i
+    # converted = conversion(fahr).round(1)
+    # puts "The current temperature in celsius is #{converted}"
 
 
 # Exercise 7
+#Wraps extra spaces for text
 #*********************************
+
+    # def wrap_text(text)
+    #   return "     " + "#{text}" + "     "
+    # end
+    #
+    # puts wrap_text("adadadadadadad")
+    # puts wrap_text("lmao i did it")
+    #
+    # puts "give me a word to add spaces to"
+    # text = gets.chomp.to_s.upcase
+    # puts wrap_text(text)
 
 # Exercise 7
 #*********************************
