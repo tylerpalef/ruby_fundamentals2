@@ -5,14 +5,26 @@
 # # puts double("5")
 #
 # puts double("15")
+#
+# def negative? (num)
+#   if num < 0
+#     return true
+#
+#   elsif
+#     num > 0
+#     return false
+# end
+# end
+# puts negative?(55)
 
-def negative? (num)
-  if num < 0
+
+def is_even?(num)
+
+  if num % 2 == 0
     return true
-
-  elsif
-    num > 0
+  else
     return false
+  end
 end
-end
-puts negative?(55)
+
+puts is_even?(69)
