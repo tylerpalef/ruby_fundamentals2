@@ -6,13 +6,13 @@
 #
 # puts double("15")
 
-def negative(num)
-  if negative >= 0
-    return "this is not negative"
+def negative? (num)
+  if num < 0
+    return true
 
-  else
-    negative < 0
-    return "this is negative"
+  elsif
+    num > 0
+    return false
 end
-num = 55
-puts negative(num)
+end
+puts negative?(55)
