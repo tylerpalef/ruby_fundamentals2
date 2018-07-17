@@ -8,11 +8,11 @@
 
 def negative(num)
   if negative >= 0
-    return negative == true
+    return "this is not negative"
 
   else
     negative < 0
-    return negative == false
+    return "this is negative"
 end
-
-puts negative(10)
+num = 55
+puts negative(num)
