@@ -70,7 +70,31 @@
     # puts your_name
 
 # Exercise 6
+#Converts Fahrenheit temperatures to Celsius
 #*********************************
+
+#original wrong version:
+
+# def conversation(temp)
+#   return celsius
+# end
+#
+# puts "what is the temp today in Fahrenheit?"
+# fahr = gets.chomp.to_i
+# converted = conversion(fahr).round(1)
+# puts "The current temperature in celsius is #{converted}"
+
+#forked David version that works:
+# def conversion(temp)
+#   celsius = (temp-32) * (5.0/9.0)
+#   return celsius
+# end
+#
+# puts "Enter the current temperature in Fahrenheit: "
+# fahr = gets.chomp.to_i
+# converted = conversion(fahr).round(1)
+# puts "The current temperature in celsius is #{converted}"
+
 
 # Exercise 7
 #*********************************
