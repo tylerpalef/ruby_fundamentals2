@@ -1,7 +1,7 @@
 # Exercise 1
 #Create a number doubler
 #*********************************
-
+    #
     # def double(my_number)
     #   return "#{my_number.to_f*2}"
     # end
